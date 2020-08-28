@@ -1,0 +1,43 @@
+
+.accordion0{
+  display: block;
+  max-height: 0;
+  margin: 0 15%;
+  overflow: hidden;
+  transition: max-height 1200ms ease-out;
+}
+.accordion100{
+  display: block;
+  max-height: 10000px;
+  margin: 0 15%;
+  transition: max-height 3000ms ease-in;
+}
+.accordionHead{
+  width: 98%;
+  margin: 11px 0;
+  padding: 8px 0;
+  border: 1px solid #112200;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.accordionWrapper{
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    color:#4a4a4a;
+    font-size: 16px;
+    padding: 10px 40px 10px;
+}
+ul{
+  background: #fffddd;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: flex;
+  justify-content: center;
+  color: #001;
+  margin: 4px;
+  padding: 4px;
+}
